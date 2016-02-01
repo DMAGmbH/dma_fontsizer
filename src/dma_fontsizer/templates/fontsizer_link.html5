@@ -1,0 +1,2 @@
+
+<a href="<?= $this->linkHref; ?>" rel="nofollow"<?php if($this->disabled): ?> class="disabled"<?php endif; ?>><?= $this->linkText; ?></a>
